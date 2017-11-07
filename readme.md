@@ -1,5 +1,5 @@
 #### Getco coding challenge
-This is the code I submitted for as a first step in the Getco hiring process back in 2009. During the
+This is the code I submitted as a first step in the Getco hiring process back in 2009. During the
 phone interview I was told I would need to spend three months in Chicago, so I dropped out at that
 point. The challenge was to write some code that figured out CPU cache sizes; you can see that in
 main.cpp which is, of course, win32 code.
