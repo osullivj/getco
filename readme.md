@@ -4,6 +4,14 @@ phone interview I was told I would need to spend three months in Chicago, so I d
 point. The challenge was to write some code that figured out CPU cache sizes; you can see that in
 main.cpp which is, of course, win32 code.
 
+#### The problem
+Most modern CPUs use multiple levels of independent caches to reduce memory access time. Working with
+a dataset that fits within a smaller, faster cache will typically result in much quicker program execution.
+Applications like [CPU-Z](http://www.cpuid.com) will gather cache information about your processor, but we'd
+like you to write a short program to estimate the sizes of the L1 (data) and L2 cache. You can assume that
+both caches have a size that is a power of 2 and are between 1KB and 16384KB (Not necessarily true, but we are
+only estimating).
+
 #### Some research links
 Here's some stuff I found handy in figuring out the problem.
 
